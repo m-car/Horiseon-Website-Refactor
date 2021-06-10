@@ -25,7 +25,7 @@ body {
   color: #d9dcd6;
 }
 
-.header nav { /*Formatting for Navigation links in header */
+.header nav { /*container  for Navigation links in header */
   padding-top: 15px;
   margin-right: 20px;
   float: right;
@@ -33,17 +33,17 @@ body {
   font-size: 20px;
 }
 
-.header nav ul li {
+.header nav ul li {/*places list inline  for Navigation links in header */
   display: inline-block;
   margin-left: 25px;
 }
 
-a {
+a { /*all links have white text */
   color: #ffffff;
   text-decoration: none;
 }
 
-p {
+p {/*sets all paragraphs font size */
   font-size: 16px;
 }
 
@@ -55,12 +55,12 @@ p {
   background-size: cover;
   background-position: center;
 }
-
+/* forces the picture in the product to left side */
 .float-left {
   float: left;
   margin-right: 25px;
 }
-
+/* forces the picture in the product to right side */
 .float-right {
   float: right;
   margin-left: 25px;
@@ -72,7 +72,7 @@ p {
   margin-left: 20px;
 }
 
-.benefit-sidebar { /*container for side bar content */
+.benefit-sidebar { /*container box for side bar content */
   margin-right: 20px;
   padding: 20px;
   clear: both;
@@ -83,7 +83,7 @@ p {
   background-color: #2589bd;
 }
 
-.benefit {
+.benefit { /* side bar contents individual block , 'Lead Generation' etc.  */
   margin-bottom: 32px;
   color: #ffffff;
 }
@@ -92,14 +92,15 @@ p {
   margin-bottom: 10px;
   text-align: center;
 }
-
-.benefit img {
+/* formats the benefit object img */
+.benefit img { 
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
-.product {
+/* container for each product  */
+.product { 
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -117,7 +118,8 @@ p {
   font-size: 36px;
 }
 
-footer {
+/* company info */
+footer { 
   padding: 30px;
   clear: both;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
