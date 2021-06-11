@@ -17,9 +17,8 @@ Simply follow the link provided. The top-right Navigation bar will redirect you 
 
 https://m-car.github.io/Horiseon-Website-Refactor/
 
-```md
-![alt text](.assets\images\screenshot1.PNG)
-```
+
 ## Credits
 I thank my instructor John Desrosiers (https://github.com/median-man) and my UCSD Extension classmates for their help.
+
 W3 schools was commonly used for reference during this project. (https://www.w3schools.com/)
